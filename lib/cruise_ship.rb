@@ -8,5 +8,5 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  passengers.each {|suite, passenger| suite.end_with?("a") && passenger.start_with?("A") puts passenger : nil}
+  passengers.each {|suite, passenger| suite.end_with?("a") && passenger.start_with?("A") ? return passenger : nil}
 end
